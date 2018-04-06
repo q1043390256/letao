@@ -22,17 +22,17 @@
         <h3 class="panel-title text-center">后台管理系统</h3>
       </div>
       <div class="panel-body">
-        <form class="form-horizontal">
+        <form class="form-horizontal" id="form">
           <div class="form-group">
             <label for="username" class="col-sm-3 control-label">用户名:</label>
             <div class="col-sm-9">
-              <input type="text" class="form-control" id="username" placeholder="请输入用户名">
+              <input type="text" class="form-control" id="username" name="username" placeholder="请输入用户名">
             </div>
           </div>
           <div class="form-group">
             <label for="password" class="col-sm-3 control-label">密　码:</label>
             <div class="col-sm-9">
-              <input type="password" class="form-control" id="password" placeholder="请输入密码">
+              <input type="password" class="form-control" id="password" name="password" placeholder="请输入密码">
             </div>
           </div>
           <div class="form-group">
@@ -50,5 +50,7 @@
 
 <script src="lib/jquery/jquery.min.js"></script>
 <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/bootstrap-validator/js/bootstrapValidator.min.js"></script>
+<script src="js/login.js"></script>
 </body>
 </html>
